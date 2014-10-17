@@ -29,5 +29,6 @@
         "create-api-3.md",
         "create-api-4.md",
         "create-api-5.md"
-    ]
+    ],
+    "cors.md"
 ]
