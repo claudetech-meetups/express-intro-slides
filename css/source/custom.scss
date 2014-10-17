@@ -1,0 +1,19 @@
+.reveal .slides {
+    p, ul, li {
+        text-align: left;
+        font-size: 22pt;
+
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        code {
+            text-transform: lowercase;
+            letter-spacing: -3px;
+            font-family: monospace;
+        }
+    }
+}
