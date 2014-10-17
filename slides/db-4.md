@@ -11,13 +11,13 @@ var postSchema = new mongoose.Schema({
   title: String,
   content: String,
   categoryId: mongoose.Schema.Types.ObjectId,
-  createdAt: Date
+  createdAt: {type: Date, default: Date.now}
 });
 module.exports = mongoose.model('Post', postSchema);
 ```
 
 Here, we define the schema for the post, with the fields we are
-going to use.
+going to use. We set `createdAt` to default to the current time.
 With this schema, we then define the model. We do the same for `Category`.
 
 ```javascript
@@ -25,7 +25,7 @@ With this schema, we then define the model. We do the same for `Category`.
 var mongoose = require('mongoose');
 var categorySchema = new mongoose.Schema({
   name: String,
-  createdAt: Date
+  createdAt: {type: Date, default: Date.now}
 });
 module.exports = mongoose.model('Category', categorySchema);
 ```
