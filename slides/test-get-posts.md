@@ -12,8 +12,8 @@ describe('Posts', function () {
 
   before(function (done) {
     require('../app')(config, function (err, a) {
-      models  = require('../models');
       if (err) return done(err);
+      models  = require('../models');
       app = a;
       done();
     });

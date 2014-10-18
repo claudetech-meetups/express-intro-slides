@@ -26,3 +26,7 @@ $ mocha
 
   1 passing (1ms)
 ```
+
+Everything concerning `GET /posts` will enter
+`describe`, and new `describe` will be added for other
+paths.

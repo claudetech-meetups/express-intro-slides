@@ -37,8 +37,18 @@
         "refactoring-3.md"
     ],
     [
-        "testing.md",
-        "testing-2.md",
-        "testing-3.md"
+        "prepare-test.md",
+        "prepare-test-2.md"
+    ],
+    [
+        "test-get-posts.md",
+        "test-get-posts-2.md",
+        "test-get-posts-3.md",
+        "test-get-posts-4.md",
+        "test-get-posts-5.md"
+    ],
+    [
+        "test-get-post.md",
+        "test-get-post-2.md"
     ]
 ]
