@@ -30,5 +30,13 @@
         "create-api-4.md",
         "create-api-5.md"
     ],
-    "cors.md"
+    "cors.md",
+    [
+        "refactoring.md",
+        "refactoring-2.md",
+        "refactoring-3.md"
+    ],
+    [
+        "testing.md"
+    ]
 ]

@@ -25,4 +25,6 @@ mongoose.Schema.prototype.defaultOptions = function (options) {
   };
   return options;
 };
+mongoose.connect('mongodb://localhost/blog_api');
+...
 ```
