@@ -12,7 +12,7 @@ var request = require('supertest'),
     config  = require('../config').test;
 
 describe('Posts', function () {
-  describe('GET /', function () {
+  describe('GET /posts', function () {
     it('should success', function () {
       expect(true).to.be.true;
     });
