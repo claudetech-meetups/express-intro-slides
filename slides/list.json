@@ -50,5 +50,6 @@
     [
         "test-get-post.md",
         "test-get-post-2.md"
-    ]
+    ],
+    "test-create-post.md"
 ]
